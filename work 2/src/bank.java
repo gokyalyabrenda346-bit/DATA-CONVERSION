@@ -7,5 +7,9 @@ public class bank {
     static int wholeInterest;
         public static void calc () {
             Scanner key = new Scanner(System.in);
+            System.out.println("Enter deposit");
+            deposit=key.nextInt();
+            System.out.println("Enter rate");
+            rate=key.nextInt();
         }
 }
