@@ -5,4 +5,7 @@ public class bank {
     static double interest;
     static double total;
     static int wholeInterest;
+        public static void calc () {
+            Scanner key = new Scanner(System.in);
+        }
 }
