@@ -11,5 +11,7 @@ public class bank {
             deposit=key.nextInt();
             System.out.println("Enter rate");
             rate=key.nextInt();
+            interest = deposit*rate;
+            total=deposit+interest;
         }
 }
